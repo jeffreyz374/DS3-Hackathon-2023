@@ -23,7 +23,7 @@ library(dplyr)
 library(caret)
 library(RCurl)
 
-url_head <- "https://raw.githubusercontent.com/jeffreyz374/DS3-Hackathon-2023/main/celestial/"
+url_head <- "https://raw.githubusercontent.com/jeffreyz374/DS3-Hackathon-2024/main/celestial/"
 
 tr_url <- paste0(url_head, "celestial_train.csv")
 celestial_train <- getURL(tr_url)
